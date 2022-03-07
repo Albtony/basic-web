@@ -10,9 +10,34 @@
 
 <!-- to render this beautiful html file with  s t y le -->
 <style>
+	@import url(https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap); 
+
 	* {
 		background: #f5b0bc;
 		color: black;
+		font-size: larger;
+		font-family: 'Kaushan Script', cursive;
+		line-height: 50px;
+	}
+
+	.maincontainer {
+		text-align: center;
+	}
+
+	.subcontainer {
+		position: absolute;
+  		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+	}
+
+	.border-circle {
+		border-radius: 50%;
+	}
+
+	.about-us {
+		font-size: medium;
+		line-height: 20px;
 	}
 </style>
 
@@ -24,20 +49,28 @@
 		<title>Welcum</title>
 	</head>
 
-	<body>
-		<p>Welcum to my humble abode, my friend</p>
-		<img src = "https://i.ibb.co/2jYHBWy/welcome-to-my-humble-abode.jpg" 
-			width = "300" height = "300" alt = "man in a pond">
-
-		<!-- a is anchor element to anchor stuff -->
-		<p>visit me on 
-			<div class = "icon">
-				<a href = "https://github.com/Albtony"> 
-					<img src = "https://i.ibb.co/Zgv5P3S/Git-Hub-Mark-120px-plus.png" 
-						width = "50" height = "50" alt = "github icon">
-				</a>
+	<body class="maincontainer">
+		<div class="subcontainer">
+			<div>
+				<p>
+					Welcum to my humble abode, my friend<br>
+					<img class="border-circle"
+						src = "https://i.ibb.co/2jYHBWy/welcome-to-my-humble-abode.jpg" 
+						width = "300" height = "300" alt = "man in a pond">
+				</p>
 			</div>
-		</p>
+	
+			<div>
+				<p class="about-us">
+					visit me on<br>
+					<a href = "https://github.com/Albtony"> 
+						<img class="border-circle" 
+							src = "https://i.ibb.co/Zgv5P3S/Git-Hub-Mark-120px-plus.png" 
+							width = "30" height = "30" alt = "github icon">
+					</a>
+				</p>
+			</div>
+		</div>
 	</body>
 </html>
 
