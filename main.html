@@ -8,6 +8,15 @@
 -->
 <!DOCTYPE html>
 
+<!-- to render this beautiful html file with  s t y le -->
+<style>
+	* {
+		background: #f5b0bc;
+		color: black;
+	}
+</style>
+
+
 <html>
 	<head>
 		<!-- encodes html docs to utf-8 -->
@@ -17,25 +26,32 @@
 
 	<body>
 		<p>Welcum to my humble abode, my friend</p>
-		<img src = "https://i.ibb.co/LChHfY8/welcome-to-my-humble-abode.jpg"
+		<img src = "https://i.ibb.co/2jYHBWy/welcome-to-my-humble-abode.jpg" 
 			width = "300" height = "300" alt = "man in a pond">
 
 		<!-- a is anchor element to anchor stuff -->
-		<p>visit me on <a href = "https://github.com/Albtony" > github</a></p>
+		<p>visit me on 
+			<div class = "icon">
+				<a href = "https://github.com/Albtony"> 
+					<img src = "https://i.ibb.co/Zgv5P3S/Git-Hub-Mark-120px-plus.png" 
+						width = "50" height = "50" alt = "github icon">
+				</a>
+			</div>
+		</p>
 	</body>
 </html>
 
 
 <!--
 	Some Note :
-	=========================================
+	===========================================
 	most element such as html, head, and body
 	delimits most elements with start and an
 	end tag.
 
 	There are several "void-elements" that do
 	bot have end tags.
-	=========================================
+	===========================================
 	You can use html validation service at 
 	(validator.w3.org) for checking a document's
 	syntax.
@@ -44,5 +60,7 @@
 	- url to online page
 	- upload file 
 	- pasting code directly
-	=========================================
+	===========================================
+	img element must have src and alt attribute
+	===========================================
 -->
