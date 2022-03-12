@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap); 
+
+* {
+	background: #f5b0bc;
+	color: black;
+	font-size: larger;
+	font-family: 'Kaushan Script', cursive;
+	line-height: 50px;
+}
+
+.maincontainer {
+	text-align: center;
+}
+
+.subcontainer {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.border-circle {
+	border-radius: 50%;
+}
+
+.about-us {
+	font-size: medium;
+	line-height: 20px;
+}
