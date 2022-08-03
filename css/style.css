@@ -8,22 +8,41 @@
 	line-height: 50px;
 }
 
-.maincontainer {
-	text-align: center;
+
+/* container and stuff */
+.container {
+	display: flex;
 }
 
-.subcontainer {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+.column {
+	flex-direction: column;
 }
 
-.border-circle {
+.tight {
+	margin: 5px 5px 5px 5px;
+}
+
+/* content positioning */
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+/* text */
+.title {
+	font-size: 45px;
+}
+
+.normal {
+	font-size: 30px;
+}
+
+/* image */
+.circle-border {
 	border-radius: 50%;
 }
 
-.about-us {
-	font-size: medium;
-	line-height: 20px;
+.big-image {
+	width: 350px;
+	height: 350px;
 }
