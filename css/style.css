@@ -2,26 +2,83 @@ body {
     background: #101010;
     font-family: 'Inter', sans-serif;
     color: #FFFFFF;
-    padding-top: 6em;
-	max-width: 70vw;
+	max-width: 55vw;
 }
 
+/* Container */
 .container {
 	display: flex;
+	position: static;
 	margin: 0 auto;
+	width: 100vw;
+	height: 100vh;
 }
 
-div.left-container {
+.left-container {
+	display: block;
 	width: 100%;
 	max-width: 50%;
 }
 
-div.right-container {
+.right-container {
+	display: block;
 	width: 100%;
 	max-width: 50%;
+}
+
+.row {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.column {
+	display: block;
+	margin-left: 0;
+}
+
+/* positioning */
+.y-center {
+	align-items: center;
+}
+
+/* font */ 
+.intro {
+	font-style: normal;
+    font-weight: 800;
+}
+
+.hi {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.name {
+    font-size: 49px;
+    line-height: 36px;
+}
+
+.profile {
+	padding-bottom: 1em;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+/* img */
+.pfp {
+	max-width: 80%;
+	height: auto;
+}
+
+/* tag selector */
+div {
+	display: flex;
 }
 
 p {
-	margin: 0;
+	margin-top: 0;
+	margin-bottom: 1.5rem;
 }
 
