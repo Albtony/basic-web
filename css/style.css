@@ -11,6 +11,11 @@ body {
 }
 
 /* Container */
+.container {
+	display: flex;
+	width: 100%;
+}
+
 .left-container {
 	display: block;
 	width: 100%;
@@ -90,10 +95,19 @@ a, a:visited, a:active, a:link {
     font-weight: 400;
 }
 
+img {
+	padding: 0.5rem;
+}
+
 img.unselectable{
     -webkit-user-drag: none;
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+}
+
+img.small-icon{
+	width: 2.5vw;
+	height: 2.5vw;
 }
