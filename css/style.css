@@ -21,7 +21,7 @@ body {
 }
 
 .right-container {
-	display: block;
+	display: flex;
 	width: 100%;
 	max-width: 50%;
 }
@@ -38,6 +38,10 @@ body {
 }
 
 /* positioning */
+.x-center {
+	justify-content: center;
+}
+
 .y-center {
 	align-items: center;
 }
