@@ -108,6 +108,6 @@ img.unselectable{
 }
 
 img.small-icon{
-	width: 2.5vw;
 	height: 2.5vw;
+	width: auto;
 }
