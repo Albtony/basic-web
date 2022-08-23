@@ -70,12 +70,6 @@ body {
 	color: #a4b1cd
 }
 
-/* img */
-.pfp {
-	max-width: 80%;
-	height: auto;
-	margin-bottom: 3rem;
-}
 
 /* tag selector */
 div {
@@ -106,6 +100,12 @@ img.unselectable{
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+}
+
+img.pfp {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 3rem;
 }
 
 img.small-icon{
