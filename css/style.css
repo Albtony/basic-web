@@ -3,10 +3,13 @@
 }
 
 body {
-    background: #141d2b;
+    background-color: #141d2b;
+	background-image: url("../asset/bg.gif");
+    background-size: cover;
     font-family: 'Inter', sans-serif;
     color: #FFFFFF;
 	max-width: 50vw;
+	min-width: 290px;
 	display: flex;
 	flex-shrink: 1;			
 	margin: 5vh auto 5vh auto;
@@ -18,6 +21,13 @@ body {
 .container {
 	display: flex;
 	width: 100%;
+}
+
+.background-border {
+	padding: 1rem 1rem 0 1rem;
+	background-color: #101a29;
+	border: 0.2rem solid #FFFFFF;
+	border-radius: 20px;
 }
 
 .left-container {
@@ -85,6 +95,7 @@ div.card {
 	width: 100%;
 	height: 20vh;
 	background-color: #101a29;
+	border: 0.2rem solid #FFFFFF;
 	border-radius: 20px;
 }
 
