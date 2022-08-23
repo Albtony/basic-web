@@ -1,10 +1,10 @@
 body {
-    background: #101010;
+    background: #141d2b;
     font-family: 'Inter', sans-serif;
     color: #FFFFFF;
 	max-width: 50vw;
 	display: flex;
-	flex-shrink: 1;
+	flex-shrink: 1;			
 	margin: 0 auto;
 	width: 100vw;
 	height: 100vh;
@@ -67,6 +67,7 @@ body {
     font-weight: 300;
     font-size: 18px;
     line-height: 30px;
+	color: #a4b1cd
 }
 
 /* img */
