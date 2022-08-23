@@ -126,6 +126,7 @@ img.icon {
 }
 
 img.small-icon{
-	height: 2.5vw;
+	height: 3vw;
+	min-height: 40px;
 	width: auto;
 }
